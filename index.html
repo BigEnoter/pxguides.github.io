@@ -9,17 +9,59 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>PX Guides</title>
 </head>
-<body>
+<body class="grey darken-3">
     <nav>
         <div class="nav-wrapper black">
-            <a class="brand-logo red-text" href="#">PhantomX Documentation</a>
+            <a class="brand-logo red-text" href="#start">PhantomX Documentation</a>
         </div>
     </nav>
     <div class="container">
-        <div class="row">
-            <div class="col md3 s6">
-                <h1>Welcome to PhantomX Documentation site!</h1>
+        <div class="row" id="stuff">
+            <h1 id="start" class="white-text">Welcome to PhantomX Documentation site!</h1>
+            <div class="col m3 s6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Updates policy</span>
+                        <a href="#updatesPolicy">Click me to view how it works!</a>
+                    </div>
+                </div>
             </div>
+            <div class="col m3 s6">
+                <div class="card">
+                    <div class="card-content">
+                        <span class="card-title">Features list</span>
+                        <a href="#featuresList">Click me to jump to features list!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="updatesPolicy">
+            <h5 class="white-text">After each GTA:O patch PX users must pay to upgrade to the newest PX version, there's how it works :</h5>
+            <table class="white-text">
+                <thead>
+                    <tr>
+                        <th>PhantomX Edition</th>
+                        <th>Pays for update?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Standart</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Premium</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Digital Deluxe</td>
+                        <td>No</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="row" id="featuresList">
+            <h5 class="white-text">Here you can find every feature PhantomX has :</h5>
         </div>
     </div>
 </body>
